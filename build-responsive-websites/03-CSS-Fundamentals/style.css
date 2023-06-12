@@ -1,0 +1,112 @@
+/* universal selector, lowest priority */
+/* *{
+    border-top: 10px solid blue;
+} */
+
+body{
+    color: grey;
+    font-family: sans-serif;
+    border-top: 10px solid blue;
+}
+/*
+h1,h2,h3,p,li
+{
+    font-family: sans-serif;
+}*/
+
+h1{
+    color: #1098ad;
+    font-size: 26px;
+    text-transform: uppercase; 
+    font-style: italic;
+}
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    text-align: center;
+    font-size:30px;
+}
+
+p{
+    font-size: 22px;
+    line-height: 1.5; /*line spacing*/
+}
+
+li{
+    font-size: 20px;    
+}
+
+/* footer p{
+    font-size: 16px;
+} */
+
+
+#author{
+    font-size:italic;
+    font-size:18px;
+}
+
+#copyright{
+    font-size:16px;
+}
+
+.related{
+    list-style:none;
+}
+
+.main-header{
+    background-color: #f7f7f7;
+}
+
+aside{
+    background-color: #f7f7f7;
+    border: 5px solid #1098ad;
+}
+
+/*style the first bullet point for lists*/
+li:first-child{
+font-weight: bold;
+}
+
+li:nth-child(odd){
+    color:red;
+}
+
+/*Styling links*/
+a:link{
+color: #1098ad;
+}
+
+a:visited{
+    color: #1098ad
+}
+
+/*when it is hovered by mouse*/
+a:hover{
+    color: orangered;
+    font-weight:bold;
+    text-decoration: underline oranged;
+}
+
+/*what it looks like during the duration of when it is clicked*/
+a:active{
+    background-color: black;
+    font-style: italic;
+}
+
+/*always in this order: link visited hover and active*/
+
+/* nav a: link,
+nav p{
+    font-size: 18px
+} */
+
+nav{
+    font-size: 18px;
+}
